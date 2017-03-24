@@ -5,13 +5,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="~/App_Themes/Default/defaultStyle.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="ContentWrapper">
-            <header>Header goes here</header>
+            <header>
+                <h1>Educational Technology Course Library</h1>
+            </header>
             <nav>Navigation goes here maybe breadcrumb</nav>
             <section id="MainContent">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
