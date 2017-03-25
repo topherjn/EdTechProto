@@ -8,6 +8,12 @@
     <link href="~/App_Themes/Default/defaultStyle.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {}
+        #SideBar {
+            width: 204px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -16,13 +22,16 @@
                 <h1>Educational Technology Course Library</h1>
             </header>
             <nav>
-                <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath></nav>
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath></nav>
             <section id="MainContent">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </section>
-            <aside id="SideBar">
-                <asp:TreeView ID="TreeView1" runat="server"></asp:TreeView>
+            <aside id="Sidebar" class="auto-style1">
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" CssClass="auto-style1" Width="16px" ExpandDepth="0" ShowLines="True">
+                </asp:TreeView>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
             </aside>
             <footer>Footer goes here</footer>
         </div>

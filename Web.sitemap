@@ -1,7 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-    <siteMapNode url="" title=""  description="">
-        <siteMapNode url="" title=""  description="" />
-        <siteMapNode url="" title=""  description="" />
+    <siteMapNode url="~" title="Home"  description="">
+        <siteMapNode url="~/Default.aspx" title="Home"  description="" />
+      <siteMapNode url="~/Introduction/Default.aspx" title="Introduction"  description="">
+        <siteMapNode url="~/Introduction/CourseIntroduction.aspx" title="Course Introduction"  description="" />
+        <siteMapNode url="~/Introduction/Tips.aspx" title="Tios for the Class"  description="" />
+        <siteMapNode url="~/Introduction/EdTechIntroduction.aspx" title="Introduction to Educational Technology"  description="" />
+      </siteMapNode>
+      <siteMapNode url="~/Research/Default.aspx" title="Reseach Principles and Methodologies"  description="" />
+      <siteMapNode url="~/Pedagogy/Default.aspx" title="Pedagogical Styles"  description="" />
+      <siteMapNode url="~/Technologies/Default.aspx" title="Technologies"  description="" />
+      <siteMapNode url="~/Issues/Default.aspx" title="Broader Issues"  description="" />
+      <siteMapNode url="~/Appendices/Default.aspx" title="Appendices"  description="" />
     </siteMapNode>
 </siteMap>

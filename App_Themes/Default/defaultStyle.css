@@ -106,25 +106,6 @@ nav
     color: #fff;
   }
 
-.MainMenu
-{
-  /*
-    The Menu gets a white border on all four sides.
-  */
-  border: 1px solid #999999;
-  width: 814px;
-  height: 19px;
-  background-color: #555555;
-}
-
-  .MainMenu ul li
-  {
-    /*
-    Gives the five menu items in the main menu a width of 160px each.
-  */
-    width: 160px;
-  }
-
 section#MainContent
 {
   /*
@@ -133,7 +114,7 @@ section#MainContent
     the user has specified as the default font in the browser.
   */
   font-size: 0.8em;
-  width: 659px;
+  width: 500px;
   border-left: 1px solid white;
   border-right: 2px solid white;
   float: right;
@@ -145,21 +126,16 @@ section#MainContent
 aside#Sidebar
 {
   /*
-    The Sidebar is positioned to the right of the MainContent section. It gets the same font-size as the 
+    The Sidebar is positioned to the left of the MainContent section. It gets the same font-size as the 
 	#MainContent section and gets a background image called Sidebar.jpg. 
 	To ensure the image is visible in (most) browsers on a small page, the element gets a minimum 
 	height of 500px. This is ignored by IE 6.
   */
   font-size: 0.8em;
   color: White;
-  background-image: url(Images/Sidebar.jpg);
-  background-repeat: no-repeat;
-  background-color: #A8D5FE;
-  width: 142px;
+  width: 265px;
   min-height: 500px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
+  background-color:bisque;
   float: left;
 }
 
