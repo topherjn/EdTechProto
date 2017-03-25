@@ -15,12 +15,15 @@
             <header>
                 <h1>Educational Technology Course Library</h1>
             </header>
-            <nav>Navigation goes here maybe breadcrumb</nav>
+            <nav>
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath></nav>
             <section id="MainContent">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </section>
-            <aside id="SideBar">Sidebar maybe TreeView</aside>
+            <aside id="SideBar">
+                <asp:TreeView ID="TreeView1" runat="server"></asp:TreeView>
+            </aside>
             <footer>Footer goes here</footer>
         </div>
     </form>

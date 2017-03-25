@@ -51,7 +51,7 @@ h2
   margin-top: 10px;
 }
 
-#PageWrapper
+#ContentWrapper
 {
   /*
     Sets the total width for the entire page. Also sets the background color
@@ -59,7 +59,7 @@ h2
     Uses margin: auto to center the entire page in the middle of the browser's window.
   */
   width: 844px;
-  background-color: #5487c0;
+  background-color: #cccccc;
   margin: auto;
 }
 
@@ -136,7 +136,7 @@ section#MainContent
   width: 659px;
   border-left: 1px solid white;
   border-right: 2px solid white;
-  float: left;
+  float: right;
   background-color: #e1e1e1;
   min-height: 500px;
   padding: 10px;
@@ -154,7 +154,7 @@ aside#Sidebar
   color: White;
   background-image: url(Images/Sidebar.jpg);
   background-repeat: no-repeat;
-  background-color: #7773A1;
+  background-color: #A8D5FE;
   width: 142px;
   min-height: 500px;
   padding-top: 10px;
@@ -180,109 +180,8 @@ footer
   line-height: 37px;
 }
 
-.Introduction
-{
-  font-style: italic;
-  color: #3e3e3e;
-}
 
-.aspNetDisabled
-{
-  color: grey;
-}
 
-.MyButton
-{
-  color: White;
-}
 
-ul.level1
-{
-  /* Defines the appearance of main menu items. */
-  font-size: 14px;
-  font-weight: bold;
-  height: 19px;
-  line-height: 19px;
-}
 
-  ul.level1 .selected
-  {
-    /* Defines the appearance of active menu items. */
-    background-color: #509EE7;
-  }
 
-a.level1
-{
-  /* Adds some white space to the left of the main menu item text.
-    !important is used to overrule the in-line CSS that the menu generates */
-  padding-left: 5px !important;
-}
-
-a.level2
-{
-  /* Defines the appearance of the sub menu items. */
-  background-color: #555555;
-  padding-left: 8px;
-}
-
-  a.level1:hover, a.level2:hover
-  {
-    /* Defines the hover style for the main and sub items. */
-    background-color: #509EE7;
-  }
-
-img
-{
-  border: 0;
-}
-
-.ErrorMessage
-{
-  color: Red;
-}
-
-.PleaseWait
-{
-  height: 32px;
-  width: 500px;
-  background-image: url(Images/PleaseWait.gif);
-  background-repeat: no-repeat;
-  padding-left: 40px;
-  line-height: 32px;
-}
-
-.Attention
-{
-  border: 4px solid red;
-  padding: 10px 0;
-  width: 100px;
-  margin: auto;
-  display: block;
-  text-align: center;
-}
-
-.ItemContainer
-{
-  width: 600px;
-  list-style-type: none;
-  clear: both;
-}
-
-  .ItemContainer li
-  {
-    height: 300px;
-    width: 200px;
-    float: left;
-  }
-
-    .ItemContainer li img
-    {
-      width: 180px;
-      margin: 10px 20px 10px 0;
-    }
-
-.Summary
-{
-  font-style: italic;
-  display: block;
-}
