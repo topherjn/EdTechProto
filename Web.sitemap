@@ -4,7 +4,7 @@
         <siteMapNode url="~/Default.aspx" title="Home"  description="" />
       <siteMapNode url="~/Introduction/Default.aspx" title="Introduction"  description="">
         <siteMapNode url="~/Introduction/CourseIntroduction.aspx" title="Course Introduction"  description="" />
-        <siteMapNode url="~/Introduction/Tips.aspx" title="Tios for the Class"  description="" />
+        <siteMapNode url="~/Introduction/Tips.aspx" title="Tips for the Class"  description="" />
         <siteMapNode url="~/Introduction/EdTechIntroduction.aspx" title="Introduction to Educational Technology"  description="" />
       </siteMapNode>
       <siteMapNode url="~/Research/Default.aspx" title="Reseach Principles and Methodologies"  description="" />

@@ -7,18 +7,18 @@
 
 
 <ul>
-    <li><a href="/PlayYouTube.aspx/?v=WxYy9A20c54">Introduction to CS6460</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=wnCSVssDPv8">(On YouTube)</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=mkYEVWZ6tYI">Readiness Questions</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=yAxck_1RYCo">An Experiment in Educational Technology</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=6IVOnxiYhYs">Learning Goals</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=50a0Ai2RXgU">Learning Outcomes</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=M9Bvrtknm_4">Learning Assessments Video</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=SNJj8B0mGhU">The Class Project</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=KCcc6oqx6qk">The Structure of the Class)</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=H0d2OHt65OU">Mentorship</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=CzFXhfRU9L8">The Course Library</a></li>
-    <li><a href="/PlayYouTube.aspx/?v=VK5b5ZQEI7M">Let's Get Started!</a></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=WxYy9A20c54" Text="Introduction to CS6460" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=wnCSVssDPv8" Text="Introduction to CS6460" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=mkYEVWZ6tYI" Text="Readiness Questions" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=yAxck_1RYCo" Text="An Experiment in Educational Technology" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=6IVOnxiYhYs" Text="Learning Goals" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=50a0Ai2RXgU" Text="Learning Outcomes" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=M9Bvrtknm_4" Text="Learning Assessments" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=SNJj8B0mGhU" Text="The Class Project" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=KCcc6oqx6qk" Text="The Structure of the Class" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=H0d2OHt65OU" Text="Mentorship" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=CzFXhfRU9L8" Text="The Course Library" /></li>
+    <li><asp:HyperLink runat="server" NavigateUrl="~/PlayYouTube.aspx?v=VK5b5ZQEI7M" Text="Let's Get Started!" /></li>
 </ul>
 
 
